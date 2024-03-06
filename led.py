@@ -10,7 +10,7 @@ color = "Yellow"
 GPIO.setup(pinout,GPIO.OUT)
 print ("LED on N" + str(pinout) + " " + color)
 GPIO.output(pinout,GPIO.HIGH)
-time.sleep(1)
+time.sleep(2)
 print ("LED off N" + str(pinout) + " " + color)
 GPIO.output(pinout,GPIO.LOW)
 time.sleep(1)
